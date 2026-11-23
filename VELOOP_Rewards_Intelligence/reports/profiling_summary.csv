@@ -1,0 +1,9 @@
+dataset,rows,columns,duplicate_rows,missing_cells,missing_user_id
+users.csv,1000,6,0,0,0
+task_activity.csv,6000,7,0,0,0
+rewards.csv,5000,8,0,0,0
+wallet_transactions.csv,3500,7,0,0,0
+withdrawals.csv,1200,7,0,0,0
+referrals.csv,900,5,0,0,0
+feature_events.csv,12000,6,0,0,0
+messy_data.csv,515,7,15,24,24

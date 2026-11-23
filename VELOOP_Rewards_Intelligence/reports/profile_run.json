@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "feature_events.csv",
+    "rows": 12000,
+    "columns": 6,
+    "duplicate_rows": 0,
+    "missing_cells": 0
+  },
+  {
+    "dataset": "messy_data.csv",
+    "rows": 515,
+    "columns": 7,
+    "duplicate_rows": 15,
+    "missing_cells": 24
+  },
+  {
+    "dataset": "referrals.csv",
+    "rows": 900,
+    "columns": 5,
+    "duplicate_rows": 0,
+    "missing_cells": 0
+  },
+  {
+    "dataset": "rewards.csv",
+    "rows": 5000,
+    "columns": 8,
+    "duplicate_rows": 0,
+    "missing_cells": 0
+  },
+  {
+    "dataset": "task_activity.csv",
+    "rows": 6000,
+    "columns": 7,
+    "duplicate_rows": 0,
+    "missing_cells": 0
+  },
+  {
+    "dataset": "users.csv",
+    "rows": 1000,
+    "columns": 6,
+    "duplicate_rows": 0,
+    "missing_cells": 0
+  },
+  {
+    "dataset": "wallet_transactions.csv",
+    "rows": 3500,
+    "columns": 7,
+    "duplicate_rows": 0,
+    "missing_cells": 0
+  },
+  {
+    "dataset": "withdrawals.csv",
+    "rows": 1200,
+    "columns": 7,
+    "duplicate_rows": 0,
+    "missing_cells": 417
+  }
+]

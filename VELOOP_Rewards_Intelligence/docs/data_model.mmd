@@ -1,0 +1,15 @@
+erDiagram
+ USERS ||--o{ TASK_ACTIVITY : performs
+ USERS ||--o{ REWARDS : receives
+ USERS ||--o{ WALLET_TRANSACTIONS : owns
+ USERS ||--o{ WITHDRAWALS : requests
+ USERS ||--o{ REFERRALS : refers
+ USERS ||--o{ FEATURE_EVENTS : generates
+ TASK_ACTIVITY ||--o{ REWARDS : may_generate
+ USERS { string user_id PK }
+ TASK_ACTIVITY { string activity_id PK string user_id FK string status }
+ REWARDS { string reward_id PK string user_id FK string activity_id FK int amount string unit string status }
+ WALLET_TRANSACTIONS { string transaction_id PK string user_id FK int amount string unit string status }
+ WITHDRAWALS { string withdrawal_id PK string user_id FK int requested_amount string status }
+ REFERRALS { string referral_id PK string referrer_user_id FK string referred_user_id FK string status }
+ FEATURE_EVENTS { string event_id PK string user_id FK string event_name string event_at }

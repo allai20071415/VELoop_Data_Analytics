@@ -1,0 +1,16 @@
+gap_id,gap,impact,priority,verification_owner
+G01,Stable cross-module user identifier unconfirmed,User-level joins unreliable,Critical,Engineering
+G02,Event ID uniqueness/idempotency unconfirmed,Duplicate event ingestion risk,Critical,Engineering
+G03,Reward-to-wallet reference mapping unconfirmed,Reward reconciliation impossible,Critical,Finance and Engineering
+G04,Reward unit semantics and exchange rates unconfirmed,Invalid cross-unit aggregation,Critical,Product and Finance
+G05,Withdrawal status history may be unavailable,Queue ageing and processing SLA uncertain,High,Wallet Engineering
+G06,Withdrawal rejection reason taxonomy unconfirmed,Limited root-cause analysis,High,Operations
+G07,Referral conversion criteria unconfirmed,Conversion KPI may be misleading,High,Growth Product
+G08,Task validation state not confirmed,Task success may differ from reward eligibility,High,Product Engineering
+G09,Third-party task attribution fields unconfirmed,External partner outcomes may be missing,High,Partnerships Engineering
+G10,Event ingestion timestamp/freshness not confirmed,No reliable latency monitoring,High,Data Engineering
+G11,Timezone and reporting calendar not confirmed,Daily/weekly metrics may differ,Medium,Product Analytics
+G12,Support ticket data source not confirmed,Support metrics incomplete,Medium,Support Operations
+G13,Feature eligibility denominator not defined,Feature adoption rate uncertain,Medium,Product
+G14,User inactivity window not agreed,Inactive user counts inconsistent,Medium,Product Analytics
+G15,Production access/privacy controls not reviewed,Operational deployment not approved,Critical,Security and Privacy

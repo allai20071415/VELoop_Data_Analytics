@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: veloop-analytics-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn backend.app:app
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEMO_ADMIN_PASSWORD
+        sync: false

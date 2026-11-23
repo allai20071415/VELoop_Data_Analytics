@@ -1,0 +1,6 @@
+source_id,source,source_type,information_used,status,limitation
+SRC-01,VELOOP Rewards Data Analyst Internship Task 01 PDF,User-provided assignment brief,Scope and acceptance requirements,Confirmed from supplied brief,Defines simulated-data and integrity rules
+SRC-02,https://www.velooprewards.in/,Official public product website,Product context and public product positioning,To re-verify before final company handoff,Does not prove internal event or database implementation
+SRC-03,https://www.velooprewards.in/help-center,Official public help center,Publicly described feature and reward lifecycle context,To re-verify before final company handoff,Help content does not establish backend data schema
+SRC-04,https://www.velooprewards.in/privacy-policy,Official public privacy policy,Privacy and data handling context,To re-verify before final company handoff,Policy text is not a substitute for internal security approval
+SRC-05,data/*.csv,Simulated generated data,Dashboard and quality validation,Simulated only,Must never be reported as VELOOP production data
